@@ -27,7 +27,7 @@
   border-bottom-color: var(--bs-primary) !important;
 }
 
-.navb .nav-link.active {
+.navb .nav-link:active {
   color: var(--bs-primary) !important;
   border-bottom-color: var(--bs-primary) !important;
 }
