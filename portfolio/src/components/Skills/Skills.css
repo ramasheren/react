@@ -1,0 +1,15 @@
+.conty{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    align-content: start;
+    margin-left: 0%;
+    text-align: left;
+    margin-top: -40px;
+}
+
+.conty h5{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+

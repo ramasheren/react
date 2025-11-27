@@ -1,24 +1,35 @@
-import React from 'react'
-import './Work.css'
-import img1 from "../../assets/imgs/img1.jpg";
-import img2 from "../../assets/imgs/img2.jpg";
-import img3 from "../../assets/imgs/img3.jpg";
-import img4 from "../../assets/imgs/img4.jpg";
-import img5 from "../../assets/imgs/img5.jpg";
-import img6 from "../../assets/imgs/img6.jpg";
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <metlink charset="UTF-8">
+    <metlink name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.2/css/all.min.css"
+/>
 
-export default function Work() {
-  return (
-    <>
-    <div className="wrapper">
-      <div>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="work.css">
+</head>
+</head>
+<body>
+<div>
   <div className="conty">
     <p>MY WORK</p>
     <h5>RECENT WORK</h5>
+    <nav aria-label="...">
+      <ul className="pagination d-flex justify-content-end">
+        <li className="page-item"><link className="page-link" href="#" />Graphic Design</li>
+        <li className="page-item"><link className="page-link" href="#" />Apps</li>
+        <li className="page-item"><link className="page-link" href="#" />Software</li>
+      </ul>
+    </nav>
   </div>
-  <div className="row">
+  <div className="row g-5">
     <div className="col img-wrapper">
-      <img src={img1} alt classname="img-fluid" />
+      <img src="imgs/imgi_3_about-BgAkqdr2.jpg" alt classname="img-fluid" />
       <div className="overlay">
         <h6><u>
             WORK 02
@@ -34,41 +45,7 @@ export default function Work() {
       </div>
     </div>
     <div className="col img-wrapper">
-      <img src={img2} alt classname="img-fluid" />
-      <div className="overlay">
-        <h6><u>
-            WORK 02
-          </u></h6>
-        <br />
-        <p>Animation</p>
-        <br /><br /><br />
-        <div className="icons">
-          <i className="fa-sharp fa-solid fa-share-nodes" />
-          <i className="fa-regular fa-eye"> 100</i>
-          <i className="fa-regular fa-heart"> 49</i>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div className="row">
-    <div className="col img-wrapper">
-      <img src={img3} alt classname="img-fluid" />
-      <div className="overlay">
-        <h6><u>
-            WORK 02
-          </u></h6>
-        <br />
-        <p>Animation</p>
-        <br /><br /><br />
-        <div className="icons">
-          <i className="fa-sharp fa-solid fa-share-nodes" />
-          <i className="fa-regular fa-eye"> 100</i>
-          <i className="fa-regular fa-heart"> 49</i>
-        </div>
-      </div>
-    </div>
-    <div className="col img-wrapper">
-      <img src={img4} alt classname="img-fluid" />
+      <img src="imgs/imgi_3_about-BgAkqdr2.jpg" alt classname="img-fluid" />
       <div className="overlay">
         <h6><u>
             WORK 02
@@ -84,9 +61,9 @@ export default function Work() {
       </div>
     </div>
   </div>
-  <div className="row">
+  <div className="row g-5">
     <div className="col img-wrapper">
-      <img src={img5} alt classname="img-fluid" />
+      <img src="imgs/imgi_3_about-BgAkqdr2.jpg" alt classname="img-fluid" />
       <div className="overlay">
         <h6><u>
             WORK 02
@@ -102,7 +79,41 @@ export default function Work() {
       </div>
     </div>
     <div className="col img-wrapper">
-      <img src={img6} alt classname="img-fluid" />
+      <img src="imgs/imgi_3_about-BgAkqdr2.jpg" alt classname="img-fluid" />
+      <div className="overlay">
+        <h6><u>
+            WORK 02
+          </u></h6>
+        <br />
+        <p>Animation</p>
+        <br /><br /><br />
+        <div className="icons">
+          <i className="fa-sharp fa-solid fa-share-nodes" />
+          <i className="fa-regular fa-eye"> 100</i>
+          <i className="fa-regular fa-heart"> 49</i>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div className="row g-5">
+    <div className="col img-wrapper">
+      <img src="imgs/imgi_3_about-BgAkqdr2.jpg" alt classname="img-fluid" />
+      <div className="overlay">
+        <h6><u>
+            WORK 02
+          </u></h6>
+        <br />
+        <p>Animation</p>
+        <br /><br /><br />
+        <div className="icons">
+          <i className="fa-sharp fa-solid fa-share-nodes" />
+          <i className="fa-regular fa-eye"> 100</i>
+          <i className="fa-regular fa-heart"> 49</i>
+        </div>
+      </div>
+    </div>
+    <div className="col img-wrapper">
+      <img src="imgs/imgi_3_about-BgAkqdr2.jpg" alt classname="img-fluid" />
       <div className="overlay">
         <h6><u>
             WORK 02
@@ -120,7 +131,5 @@ export default function Work() {
   </div>
 </div>
 
-    </div>
-    </>
-  )
-}
+</body>
+</html>

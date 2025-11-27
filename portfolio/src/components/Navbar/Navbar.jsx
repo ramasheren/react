@@ -1,22 +1,25 @@
 import React from 'react'
 import './Navbar.css'
-import profilePic from '../../assets/imgs/imgi_3_about-BgAkqdr2.jpg';
+import profilePic from '../../assets/imgs/d.jpg';
+import { NavLink } from "react-router-dom";
+
 
 
 export default function Navbar() {
   return (
     <>
     <div className="navb">
-  <img className="pfp" src={profilePic} />
-  <h3 className="nav-name">Jackson Ford</h3>
+      <div className="pfp cont">
+  <img className="" src={profilePic} /></div>
+  <h3 className="nav-name fakhama">Jackson Ford</h3>
   <p><span className="text-primary">UI/UX/Designer</span> in Philippines</p>
   <nav className="nav flex-column nav-underline">
-    <a className="nav-link" href="/home">Home</a>
-    <a className="nav-link" href="/about">About</a>        
-    <a className="nav-link" href="/skills">Skills</a>
-    <a className="nav-link" href="/experience">Experience</a>
-    <a className="nav-link" href="/work">Work</a>
-  </nav>
+  <NavLink to="/home" className="nav-link">Home</NavLink>
+  <NavLink to="/about" className="nav-link">About</NavLink>
+  <NavLink to="/skills" className="nav-link">Skills</NavLink>
+  <NavLink to="/experience" className="nav-link">Experience</NavLink>
+  <NavLink to="/work" className="nav-link">Work</NavLink>
+</nav>
 </div>
 
     </>

@@ -1,16 +1,22 @@
+i{
+    padding: 15px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    margin: 10px;
+}
+
 .wrapper {
-  position: absolute;
+  position: fixed;
   right: 0;   
   top: 0;
   bottom: 0;   
   width: 83%;  
   height: 100%;
-  /* overflow: hidden;   */
-  margin: 0%;
+  overflow: hidden;  
   margin:0px;           
   margin-left: 17%;     
-  align-items: start;
-  padding: 20px 40px;          
+  align-items: start;   
+  padding: 10%;          
 }
 
 .conty{
@@ -21,13 +27,4 @@
     margin-left: 0%;
     padding-left: 10px;
     text-align: left;
-}
-
-.wrapper .row{
-    margin-top: 30px;
-}
-
-.conty h5{
-    margin-top: 20px;
-    margin-bottom: 20px;
 }

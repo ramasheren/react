@@ -19,3 +19,22 @@ p{
 .eb3ed{
     margin-bottom: 20px;
 }
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.carousel-wrapper {
+  position: fixed;
+  right: 0;   
+  top: 0;
+  bottom: 0; 
+  width: 83%;  
+  height: 100%;
+  overflow: hidden;  
+  margin:0px;           
+  margin-left: 17%;     
+}

@@ -11,7 +11,6 @@ import {createBrowserRouter, RouterProvider} from 'react-router-dom'
 import MasterLayout from './components/MasterLayout/MasterLayout'
 
 
-
 function App() {
   const [count, setCount] = useState(0)
   let routes = createBrowserRouter([
